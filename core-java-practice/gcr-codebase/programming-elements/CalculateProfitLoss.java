@@ -1,4 +1,4 @@
-public class CalculateProfit_Loss{
+public class CalculateProfitLoss {
     public static void main(String args[]){
         int costPrice = 129;                // value given in the question
         int sellingPrice = 191;            // value given in the question
