@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Finding_YardsMiles {
+public class FindingYardsMiles {
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
        double feet= sc.nextDouble();                    // Feet given by user 

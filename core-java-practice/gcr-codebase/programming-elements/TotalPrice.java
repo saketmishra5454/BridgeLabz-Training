@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculate {
+public class TotalPrice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // Input: unit price of the item

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Remainder_Quotient {
+public class RemainderQuotient {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number: ");

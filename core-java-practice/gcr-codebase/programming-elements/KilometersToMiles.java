@@ -6,6 +6,6 @@ public class KilometersToMiles{
 
         double miles = kilometers / 1.6;           // Conversion factor from kilometers to miles
 
-        System.out.print("%.2f kilometers is equal to %.2f miles", kilometers, miles);
+        System.out.printf("%.2f kilometers is equal to %.2f miles", kilometers, miles);
     }
 }

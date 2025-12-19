@@ -9,12 +9,12 @@ public class DivisibleByTwo{
           }
           else{
                  System.out.println("NO, the given number is not divisible by 2");
-
-           }
+          }
                     
-}
+         }
           public static boolean divisible(int number){
-          return (number%2 == 0);
-}
 
-           }
+              return (number%2 == 0);
+          }
+
+}

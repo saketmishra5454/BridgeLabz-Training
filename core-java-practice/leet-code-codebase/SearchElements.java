@@ -1,4 +1,4 @@
-class Search_Elements {
+class SearchElements {
     public int searchInsert(int[] nums, int target) {
         int low = 0;
         int high = nums.length-1;
@@ -8,9 +8,9 @@ class Search_Elements {
         //     }
             
         
-        
+        // using Binary Search
             while(low <= high){
-                int mid = low+(high-low)/2;
+                int mid = low+(high-low)/2;         // calculate the mid value
                 if(nums[mid]== target){
                     return mid;
                 }
@@ -27,7 +27,7 @@ class Search_Elements {
         }
 
         public static void main(String[] args) {
-            Search_Elements se = new Search_Elements();
+            SearchElements se = new SearchElements();
             int[] nums = {1,3,5,6};
             int target = 5;
             int index = se.searchInsert(nums, target);
