@@ -45,6 +45,5 @@ public class YoungestAndTallestFriends{
         System.out.println("Tallest Friend: " + names[tallestIndex] +
                            " (Height: " + height[tallestIndex] + ")");
 
-        sc.close(); // closing scanner, not very important but good practice
     }
 }

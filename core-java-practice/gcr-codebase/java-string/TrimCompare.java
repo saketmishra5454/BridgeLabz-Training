@@ -55,4 +55,9 @@ class TrimAndCompare {
         boolean isSame = compareStrings(myTrim, builtTrim);
 
         System.out.println("\nTrimmed using charAt(): '" + myTrim + "'");
-        System.out.println("Trimmed using t
+        System.out.println("Trimmed using built-in trim(): '" + builtTrim + "'");
+        System.out.println("Both strings are same: " + isSame);
+
+        sc.close();
+    }
+}

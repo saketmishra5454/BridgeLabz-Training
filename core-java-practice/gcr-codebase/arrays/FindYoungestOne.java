@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class YoungestAndTallestFriends {
+public class FindYoungestOne {
 
     public static void main(String[] args) {
 
@@ -49,6 +49,5 @@ public class YoungestAndTallestFriends {
         System.out.println("Tallest Friend: " + names[tallestIndex] +
                            " (Height: " + height[tallestIndex] + ")");
 
-        sc.close(); // closing scanner, not very important but good practice
     }
 }

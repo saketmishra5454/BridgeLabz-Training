@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class second_largest_naive {
+public class Second_LargestNaive {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Please, Enter the value of array size(n):");
@@ -11,7 +11,7 @@ public class second_largest_naive {
             arr[i] = s.nextInt();
         }
         //int largest = getlargest(arr);
-        second_largest_naive obj = new second_largest_naive();
+        Second_LargestNaive obj = new Second_LargestNaive();
         //int largest = obj.getlargest(arr);
         System.out.println("The largest Element in the array is "+arr[obj.getlargest(arr)]);
         System.out.println("At the index of "+ obj.getlargest(arr));

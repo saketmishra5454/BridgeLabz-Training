@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CountOccurencesOfAnElement {
+public class CountOccurencesOfElement {
     public static int countElementsIteratively(int[] array,int target){
         int count = 0;
         for(int i : array){
