@@ -60,7 +60,7 @@ public class EmployeeWageTillCondition {
             totalWage += dailyWage;
         }
 
-    m   //  final summary output
+      //  final summary output
         System.out.println("Total Working Days: " + totalWorkingDays);
         System.out.println("Total Working Hours: " + totalWorkingHours);
         System.out.println("Total Employee Wage: " + totalWage);
