@@ -8,7 +8,7 @@ public class StringOperations {
         int vowels = 0;
         int consonants = 0;
 
-        // converting string to lowercase to avoid confusion
+        // converting string to lowerCase to avoid confusion
         text = text.toLowerCase();
 
         // looping through each character... one by one
@@ -29,7 +29,6 @@ public class StringOperations {
         return new int[]{vowels, consonants};
     }
    
-   
 
     public static void main(String[] args) {
 
@@ -45,12 +44,12 @@ public class StringOperations {
         System.out.println("Vowels count: " + result[0]);
         System.out.println("Consonants count: " + result[1]);
 
-        // calling reverse function
-        String reversedText = reverseString(input);
-
-        System.out.println("Reversed string: " + reversedText);
 
         sc.close(); 
     }
-}
 
+
+	}
+
+
+.

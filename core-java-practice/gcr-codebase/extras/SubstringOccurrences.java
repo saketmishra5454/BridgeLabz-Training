@@ -19,7 +19,8 @@ public class SubstringOccurrences {
 
         System.out.println("Substring occurs " + count + " times.");
 
-        sc.close(); 
+        sc.close();
+    }
 
     public static int countOccurrences(String mainStr, String subStr) {
 
@@ -33,7 +34,6 @@ public class SubstringOccurrences {
                 count++; 
             }
         }
-
         return count; 
     }
 }

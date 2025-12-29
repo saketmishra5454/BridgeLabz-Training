@@ -1,4 +1,4 @@
-public class NumberChecker {
+public class NumberCheckerThree {
 
     public static int countDigits(int number) {
         int count = 0;
@@ -111,7 +111,7 @@ public class NumberChecker {
             System.out.println("It is NOT a Duck Number");
         }
 
-        // armstrong check
+        // Armstrong check
         if (isArmstrong(number, digits)) {
             System.out.println("It is an Armstrong Number");
         } else {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SpringSeason {
+public class SpringSeasonChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter month : ");   // Taking month and day as input from user
@@ -20,4 +20,5 @@ public class SpringSeason {
             System.out.println("Not a Spring Season");
         }
     }
+
 }
