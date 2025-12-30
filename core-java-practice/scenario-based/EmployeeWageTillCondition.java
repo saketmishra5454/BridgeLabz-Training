@@ -2,17 +2,17 @@ public class EmployeeWageTillCondition {
 
     public static void main(String[] args) {
 
-        // displaying welcome message 
+        // displaying welcome message                         //UC1  
         System.out.println("Welcome to Employee");
         System.out.println("Wage Computation");
         System.out.println("Program on Master Branch");
 
-        //fixed assumptions
+        //fixed assumptions                //UC2
         int wagePerHour = 20;
-        int fullTimeHours = 8;
+        int fullTimeHours = 8;              //UC3
         int partTimeHours = 8;
 
-        int maxWorkingDays = 20;
+        int maxWorkingDays = 20;         //UC5
         int maxWorkingHours = 100;
 
         int totalWorkingDays = 0;
@@ -26,11 +26,13 @@ public class EmployeeWageTillCondition {
             totalWorkingDays++;
 
             //random check for employee type 
-            // 0 -> Absent | 1 -> Full Time | 2 -> Part Time
+            
+
             int employeeType = (int) (Math.random() * 3);
 
             int dailyHours = 0;
 
+            //UC4
             //  deciding daily hours using switch case
             switch (employeeType) {
 
@@ -50,13 +52,16 @@ public class EmployeeWageTillCondition {
             }
 
             //checking hour limit before adding
+            //UC6
             if (totalWorkingHours + dailyHours > maxWorkingHours) {
                 dailyHours = maxWorkingHours - totalWorkingHours;
             }
 
             //updating totals
             totalWorkingHours += dailyHours;
-            int dailyWage = dailyHours * wagePerHour;
+
+            //UC2
+            int dailyWage = dailyHours * wagePerHour;                    //calculating daily wage
             totalWage += dailyWage;
         }
 
