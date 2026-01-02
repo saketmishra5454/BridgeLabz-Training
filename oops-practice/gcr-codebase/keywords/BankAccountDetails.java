@@ -58,10 +58,10 @@ public class BankAccountDetails {
     public static void main(String[] args) {
 
         BankAccountDetails acc1 =
-                new BankAccountDetails("Lynda Princy", "ACC12345", 1000.0);
+                new BankAccountDetails("Lynda Princy", "ACC12345", 1000.0);    // create first account
 
         BankAccountDetails acc2 =
-                new BankAccountDetails("Prince Danish", "ACC67890", 500.0);
+                new BankAccountDetails("Prince Danish", "ACC67890", 500.0);        // create second account
 
         System.out.println("Account 1 Details:");
         acc1.displayDetails(acc1);
@@ -69,10 +69,10 @@ public class BankAccountDetails {
         System.out.println("\nAccount 2 Details:");
         acc2.displayDetails(acc2);
 
-        getTotalAccounts();
+        getTotalAccounts();         // display total accounts
 
-        System.out.println("\nPerforming transactions on Account 1:");
-        acc1.deposit(200.0);
+        System.out.println("\nPerforming transactions on Account 1:");                
+        acc1.deposit(200.0);                 
         acc1.withdraw(150.0);
 
         acc1.displayDetails(acc1);
