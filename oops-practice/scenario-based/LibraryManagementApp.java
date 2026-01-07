@@ -79,7 +79,7 @@ class Library {
         System.out.println("Book not found.");
     }
 }
-public class LibraryManagement {
+public class LibraryManagementApp {
     public static void main(String[] args) {
         Library lib = new Library(10);
 
