@@ -68,6 +68,19 @@ Each branch focuses on specific learning objectives and problem sets.
 📂 Scenario Based (Problem Solved based on Scenario)
 👉[Scenario Based](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
+📂 DSA Practice
+👉 [DSA Practice](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice)
+
+📂 GCR Codebase (Daily Google ClassRoom Assignment)
+👉 [GCR Codebase](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase)
+
+📂 LeetCode Codebase (Problem Solved on Leetcode)
+👉[LeetCode CodeBase](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
+
+📂 Scenario Based (Problem Solved based on Scenario)
+👉[Scenario Based](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+
 <h2>📅 Learning Progression</h2>
 Daily / Level-wise Breakdown
 
@@ -100,6 +113,25 @@ Implemented EduQuiz application.  [Link](https://github.com/saketmishra5454/Brid
 Scenario-based     [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 And
 LeetCode problems:.  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+
+- **06/Jan/2026:** Submission of Scenario  based and LeetCode
+Scenario-based   [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+And
+LeetCode problems:.  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+
+- **07/Jan/2026:** Submission of Scenario  based and LeetCode
+Scenario-based   [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+And
+LeetCode problems:.  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+
+
+- **08/Jan/2026:** Data Structure Introduction and LinkedList.  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linked-list)
+- **09/Jan/2026:** LinkedList Assignment done.  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linked-list)
+  
+- **12/Jan/2026:** Scenario Based OOPs Done.  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+  
+- **13/Jan/2026:** Scenario Based OOPs Done  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based) AND Create a Merge Confilict in Github And Try to resolve it. [Link]()
+- **14/Jan/2026:** Submission of Stack , Queue, HashMap and Hashing Function Done.  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stacks-queues)
 
 All exercises are mapped under
 
