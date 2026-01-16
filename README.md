@@ -132,6 +132,8 @@ LeetCode problems:.  [Link](https://github.com/saketmishra5454/BridgeLabz-Traini
   
 - **13/Jan/2026:** Scenario Based OOPs Done  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based) AND Create a Merge Confilict in Github And Try to resolve it. [Link]()
 - **14/Jan/2026:** Submission of Stack , Queue, HashMap and Hashing Function Done.  [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stacks-queues)
+- **15/Jan/2026:** Submission of Linear and Binary Search & Address Book Problem. [Link]()
+- **16/Jan/2026:** Submission of Sorting Algorithms Done. [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting-algorithms)
 
 All exercises are mapped under
 
