@@ -1,6 +1,6 @@
-package addressbookSystem.service;
+package addressbooksystem.service;
 
-import addressbookSystem.model.Contact;
+import addressbooksystem.model.Contact;
 import java.util.ArrayList;
 import java.util.List;
 

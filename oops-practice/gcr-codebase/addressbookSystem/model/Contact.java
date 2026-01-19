@@ -1,4 +1,4 @@
-package addressbookSystem.model;
+package addressbooksystem.model;
 
 public class Contact {
     private String firstName, lastName, address, city, state, zip, phoneNumber, email;

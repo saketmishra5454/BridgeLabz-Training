@@ -1,10 +1,10 @@
-package addressbookSystem.main;
+package addressbooksystem.main;
 
-import addressbookSystem.model.Contact;
-import addressbookSystem.service.AddressBookService;
+import addressbooksystem.model.Contact;
+import addressbooksystem.service.AddressBookService;
 import java.util.Scanner;
 
-public class AddressBookMain {
+public class AddressBookMain{
     public static void main(String[] args) {
         System.out.println("Welcome to Address Book Program");
         
