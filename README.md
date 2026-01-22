@@ -80,6 +80,12 @@ Each branch focuses on specific learning objectives and problem sets.
 📂 Scenario Based (Problem Solved based on Scenario)
 👉[Scenario Based](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
 
+📂 Collections Practice
+👉 [Collections Practice](https://github.com/saketmishra5454/BridgeLabz-Training/tree/collections-practice)
+
+📂 GCR Codebase (Daily Google ClassRoom Assignment)
+👉 [GCR Codebase](https://github.com/saketmishra5454/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase)
+
 
 <h2>📅 Learning Progression</h2>
 Daily / Level-wise Breakdown
@@ -138,8 +144,8 @@ LeetCode problems:.  [Link](https://github.com/saketmishra5454/BridgeLabz-Traini
 - **19/Jan/2026:** Submission of Algorithm's Runtime Analysis & Big-O Notation. [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/runtime-analysis)
 - **20/Jan/2026:** Submission of scenario based problems. [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
 - **21/Jan/2026:** Submission of Java Generics Done. [Link](https://github.com/saketmishra5454/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/generics)
-- 
 
+  
 All exercises are mapped under
 
 `core-java-practice/gcr-codebase/`
