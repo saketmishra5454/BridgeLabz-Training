@@ -1,13 +1,11 @@
-// Reservation class
-public class Reservation {
+// Table class to store table details
+public class Table {
 
     int tableNumber;
-    String timeSlot;
-    String customerName;
+    int capacity;
 
-    public Reservation(int tableNumber, String timeSlot, String customerName) {
+    public Table(int tableNumber, int capacity) {
         this.tableNumber = tableNumber;
-        this.timeSlot = timeSlot;
-        this.customerName = customerName;
+        this.capacity = capacity;
     }
 }
