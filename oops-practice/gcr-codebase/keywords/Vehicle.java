@@ -1,5 +1,5 @@
 //Vehicle Regitration System with Keywords: this, static, final, instanceof
-
+package keywords;
 public class Vehicle {      // Vehicle class
     static int registrationFee;
     String ownerName;

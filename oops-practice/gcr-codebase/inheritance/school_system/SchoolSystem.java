@@ -1,3 +1,4 @@
+package inheritance.school_system;
 //Program to demonstrate Inheritance in a School System
 class Person{
     String name;

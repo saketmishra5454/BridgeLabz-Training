@@ -1,3 +1,4 @@
+package pillars.ride_hailing_system;
 // Interface for GPS related work
 interface GPS {
     String getCurrentLocation();

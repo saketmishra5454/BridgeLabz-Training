@@ -1,5 +1,5 @@
 //vehicle RegistrationFee Program
-
+package constructors;
 public class Vehicle {          // Vehicle class with constructors and static variable
     String ownerName;
     String vehicleType;

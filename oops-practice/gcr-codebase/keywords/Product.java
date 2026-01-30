@@ -1,3 +1,4 @@
+package keywords;
 public class Product {
 
     // static variable shared by all products

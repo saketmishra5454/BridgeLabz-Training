@@ -1,3 +1,4 @@
+package inheritance;
 // VehicleManagement demonstrates inheritance and interface implementation
 interface Refuelable{           //Interface
     void refuel();

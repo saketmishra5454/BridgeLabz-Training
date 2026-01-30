@@ -1,3 +1,4 @@
+package pillars;
 // Interface for medical record related work
 interface MedicalRecord {
     void addRecord(String record);

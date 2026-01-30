@@ -1,4 +1,4 @@
-
+package inheritance;
 class Order{          //Base Class
     int orderId;
     String orderDate;

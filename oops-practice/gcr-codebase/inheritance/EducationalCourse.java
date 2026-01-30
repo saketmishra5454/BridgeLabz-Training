@@ -1,3 +1,4 @@
+package inheritance;
 class Course{            //Base Class
     String CourseName;
     int duration;

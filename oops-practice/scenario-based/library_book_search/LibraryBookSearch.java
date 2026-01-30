@@ -1,3 +1,5 @@
+package library_book_search;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ class BookNotAvailableException extends Exception {
     }
 }
 
-// Book class
+// library_book_search.Book class
 class Book {
 
     private String title;
@@ -41,7 +43,7 @@ class Book {
     }
 }
 
-// Library class
+// library_book_search.Library class
 class Library {
 
     private List<Book> books = new ArrayList<>();
@@ -79,16 +81,16 @@ class Library {
 
                 if (!b.isAvailable()) {
                     throw new BookNotAvailableException(
-                            "Book is already checked out");
+                            "library_book_search.Book is already checked out");
                 }
 
                 b.setAvailable(false);
-                System.out.println("Book checked out successfully.");
+                System.out.println("library_book_search.Book checked out successfully.");
                 return;
             }
         }
 
-        System.out.println("Book not found.");
+        System.out.println("library_book_search.Book not found.");
     }
 
     // display all books

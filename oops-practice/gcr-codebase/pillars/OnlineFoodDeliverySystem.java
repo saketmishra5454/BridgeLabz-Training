@@ -1,3 +1,4 @@
+package pillars;
 // Interface for discount feature
 interface Discountable {
     double applyDiscount();

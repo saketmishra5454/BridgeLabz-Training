@@ -47,7 +47,7 @@ public class LibraryManagement {
         }
 
         if (!found) {
-            System.out.println("Book not found");
+            System.out.println("library_book_search.Book not found");
         }
     }
 
@@ -60,10 +60,10 @@ public class LibraryManagement {
 
         if (bookStatus[index] == true) {
             bookStatus[index] = false;
-            System.out.println("Book checked out");
+            System.out.println("library_book_search.Book checked out");
         } else {
             bookStatus[index] = true;
-            System.out.println("Book returned");
+            System.out.println("library_book_search.Book returned");
         }
     }
 
@@ -73,7 +73,7 @@ public class LibraryManagement {
         int choice;
 
         do {
-            System.out.println("\nLibrary Menu");
+            System.out.println("\nlibrary_book_search.Library Menu");
             System.out.println("1. Show all books");
             System.out.println("2. Search book");
             System.out.println("3. Checkout or Return");

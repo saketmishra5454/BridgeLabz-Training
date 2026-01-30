@@ -1,3 +1,4 @@
+package inheritance;
 //Restaurant Management System using Inheritance and Interfaces
 interface Worker{              //Interface
     void performDuties();

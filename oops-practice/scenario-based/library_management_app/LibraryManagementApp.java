@@ -1,3 +1,5 @@
+package library_management_app;
+
 class Book {
     String title;
     String author;
@@ -54,14 +56,14 @@ class Library {
             if (books[i].title.equalsIgnoreCase(title)) {
                 if (books[i].isAvailable) {
                     books[i].isAvailable = false;
-                    System.out.println("Book checked out: " + title);
+                    System.out.println("library_book_search.Book checked out: " + title);
                 } else {
-                    System.out.println("Book already checked out.");
+                    System.out.println("library_book_search.Book already checked out.");
                 }
                 return;
             }
         }
-        System.out.println("Book not found.");
+        System.out.println("library_book_search.Book not found.");
     }
 
     void returnBook(String title) {
@@ -69,14 +71,14 @@ class Library {
             if (books[i].title.equalsIgnoreCase(title)) {
                 if (!books[i].isAvailable) {
                     books[i].isAvailable = true;
-                    System.out.println("Book returned: " + title);
+                    System.out.println("library_book_search.Book returned: " + title);
                 } else {
-                    System.out.println("Book was not checked out.");
+                    System.out.println("library_book_search.Book was not checked out.");
                 }
                 return;
             }
         }
-        System.out.println("Book not found.");
+        System.out.println("library_book_search.Book not found.");
     }
 }
 public class LibraryManagementApp {

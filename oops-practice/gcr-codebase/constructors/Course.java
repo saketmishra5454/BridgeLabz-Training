@@ -1,3 +1,4 @@
+package constructors;
 // Online Course Management System
 public class Course {         // Course class with constructors and static variable
     String courseName;

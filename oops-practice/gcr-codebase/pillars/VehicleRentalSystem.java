@@ -1,3 +1,4 @@
+package pillars;
 // Interface for insurance related stuff
 interface Insurable {
     double calculateInsurance();

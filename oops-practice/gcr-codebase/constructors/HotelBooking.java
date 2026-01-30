@@ -1,5 +1,5 @@
 // Program for Hotel Booking System using Constructors
-
+package constructors;
 class HotelBooking {
 
     // booking details

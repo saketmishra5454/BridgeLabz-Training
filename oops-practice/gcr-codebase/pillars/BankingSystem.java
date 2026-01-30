@@ -1,3 +1,4 @@
+package pillars;
 // Interface for loan related features
 interface Loanable {
     void applyForLoan(double amount);

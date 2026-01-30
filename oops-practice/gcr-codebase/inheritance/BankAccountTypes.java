@@ -1,5 +1,5 @@
 //Program to demonstrate inheritance with different types of bank accounts
-
+package inheritance;
 class BankAccount {           //Base Class
     protected int accountNumber;    //Common Attribute
     protected double balance;       //Common Attribute

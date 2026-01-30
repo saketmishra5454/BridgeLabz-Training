@@ -1,3 +1,4 @@
+package inheritance;
 // Base class
 class Employee {
     String name;

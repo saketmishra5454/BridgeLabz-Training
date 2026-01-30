@@ -1,3 +1,4 @@
+package inheritance;
 // Superclass
 class Book {
     String title;

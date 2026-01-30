@@ -1,5 +1,5 @@
 //Hospital Management System - Patient Class
-
+package keywords;
 public class Patient {
     static String hospitalName="City Hospital";
 

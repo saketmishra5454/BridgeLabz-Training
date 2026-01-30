@@ -1,3 +1,4 @@
+package keywords;
 public class Student {
 
     // static variable shared by all students

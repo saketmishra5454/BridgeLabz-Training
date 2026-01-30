@@ -1,3 +1,4 @@
+package pillars;
 // Interface for department details
 interface Department {
     void assignDepartment(String dept);

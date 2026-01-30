@@ -1,3 +1,4 @@
+package inheritance;
 // Base class
 public class Animal {
     public void sound() {            // method to be overridden

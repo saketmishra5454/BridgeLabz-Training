@@ -1,3 +1,4 @@
+package pillars;
 // Interface for reservation feature
 interface Reservable {
     void reserveItem(String borrowerName);

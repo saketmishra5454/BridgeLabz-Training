@@ -1,3 +1,4 @@
+package constructors;
 // File: Product.javapackage
 public class Product {            // Product class to demonstrate constructors and static variable
     String ProductName;

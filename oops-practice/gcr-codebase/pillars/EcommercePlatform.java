@@ -1,3 +1,4 @@
+package pillars;
 // Interface for tax calculation
 interface Taxable {
     double calculateTax();

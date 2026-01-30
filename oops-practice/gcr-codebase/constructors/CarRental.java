@@ -1,5 +1,5 @@
 // Program for Car Rental System using Default and Parameterized Constructors
-
+package constructors;
 class CarRental {
 
     // rental details
@@ -17,7 +17,7 @@ class CarRental {
     }
 
     // parameterized constructor
-   r
+
     CarRental(String c, String m, int d) {
         customerName = c;
         carModel = m;
