@@ -1,5 +1,21 @@
 # Compiled class file
 *.class
+.classpath
+.project
+
+# Ignore Eclipse files anywhere
+**/.classpath
+**/.project
+
+# Ignore IntelliJ anywhere
+**/.idea/
+
+# Ignore output folders
+**/out/
+**/bin/
+**/build/
+**/target/
+**/dist/
 
 # Log file
 *.log
