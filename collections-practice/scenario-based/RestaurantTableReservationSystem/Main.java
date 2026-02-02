@@ -1,4 +1,5 @@
 // main class to test the program
+package RestaurantTableReservationSystem;
 public class Main {
 
     public static void main(String[] args) {

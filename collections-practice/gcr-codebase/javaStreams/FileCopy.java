@@ -1,45 +1,61 @@
-import java.io.*;
+package javaStreams;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class FileCopy {
+
     public static void main(String[] args) {
-        // source and destination file paths (you can change as needed)
-        String sourceFile = "input.txt";
-        String destFile = "output.txt";
 
         FileInputStream fis = null;
         FileOutputStream fos = null;
 
+        // Source file name (from where data will be read)
+        String sourceFile = "input.txt";
+
+        // Destination file name (where data will be written)
+        String destFile = "output.txt";
+
         try {
-            File file = new File(sourceFile);
 
-            // checking if source file exists
-            if (!file.exists()) {
-                System.out.println("Source file does not exist!");
-                return; // exit the program
-            }
-
-            // opening streams
+            // Open source file
             fis = new FileInputStream(sourceFile);
-            fos = new FileOutputStream(destFile); // new file created if not exists
 
-            int byteData;
-            // reading byte by byte and writing to output file
-            while ((byteData = fis.read()) != -1) {
-                fos.write(byteData);
+            // Open destination file (it will create file if not exist)
+            fos = new FileOutputStream(destFile);
+
+            int ch;
+
+            // Read one byte at a time and write it to new file
+            while ((ch = fis.read()) != -1) {
+
+                fos.write(ch);   // writing data
             }
 
-            System.out.println("File copied successfully!");
+            System.out.println("File copied successfully.");
 
         } catch (IOException e) {
-            System.out.println("Error during file operation: " + e.getMessage());
+
+            // If source file not found or any IO error
+            System.out.println("Error: Source file not found or problem in file handling.");
+            System.out.println(e.getMessage());
 
         } finally {
-            // closing streams in finally block so they always close
+
+            // Closing files (important step)
             try {
-                if (fis != null) fis.close();
-                if (fos != null) fos.close();
+
+                if (fis != null) {
+                    fis.close();
+                }
+
+                if (fos != null) {
+                    fos.close();
+                }
+
             } catch (IOException e) {
-                System.out.println("Error closing files: " + e.getMessage());
+
+                System.out.println("Error while closing files.");
             }
         }
     }

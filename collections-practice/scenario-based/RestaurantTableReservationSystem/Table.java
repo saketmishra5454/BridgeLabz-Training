@@ -1,3 +1,4 @@
+package RestaurantTableReservationSystem;
 // Table class to store table details
 public class Table {
 

@@ -1,4 +1,5 @@
 // Reservation class
+package RestaurantTableReservationSystem;
 public class Reservation {
 
     int tableNumber;
