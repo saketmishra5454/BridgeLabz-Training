@@ -1,19 +1,32 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+package exceptionHandling;
+import java.io.*;
 
 public class ReadFile {
+
     public static void main(String[] args) {
+
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("data.txt"));
+
+            // FileReader is used to open the file
+            FileReader fr = new FileReader("data.txt");
+
+            // BufferedReader helps to read line by line
+            BufferedReader br = new BufferedReader(fr);
+
             String line;
 
-            while ((line = reader.readLine()) != null) {
+            // Read file till end
+            while ((line = br.readLine()) != null) {
+
                 System.out.println(line);
             }
 
-            reader.close();
+            // Always close file
+            br.close();
+
         } catch (IOException e) {
+
+            // If file is not found or any IO error
             System.out.println("File not found");
         }
     }
