@@ -1,4 +1,4 @@
-package taskmanager;
+package junit.taskmanager;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 

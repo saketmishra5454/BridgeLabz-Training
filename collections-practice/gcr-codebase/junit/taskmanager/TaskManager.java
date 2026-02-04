@@ -1,4 +1,4 @@
-package taskmanager;
+package junit.taskmanager;
 public class TaskManager {
 
     // Long task
