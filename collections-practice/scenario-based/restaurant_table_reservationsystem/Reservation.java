@@ -1,5 +1,5 @@
 // Reservation class
-package RestaurantTableReservationSystem;
+package restaurant_table_reservationsystem;
 public class Reservation {
 
     int tableNumber;

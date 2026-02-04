@@ -1,4 +1,4 @@
-package RestaurantTableReservationSystem;
+package restaurant_table_reservationsystem;
 import java.util.*;
 
 // main reservation system class

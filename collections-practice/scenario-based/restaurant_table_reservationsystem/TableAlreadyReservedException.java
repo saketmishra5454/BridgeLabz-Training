@@ -1,4 +1,4 @@
-package RestaurantTableReservationSystem;
+package restaurant_table_reservationsystem;
 // custom exception class
 public class TableAlreadyReservedException extends Exception {
 

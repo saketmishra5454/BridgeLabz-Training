@@ -1,4 +1,4 @@
-package RestaurantTableReservationSystem;
+package restaurant_table_reservationsystem;
 // Table class to store table details
 public class Table {
 
