@@ -1,3 +1,4 @@
+package review;
 
 // Custom Exception Class
 class InvalidAgeException extends Exception {
@@ -31,7 +32,7 @@ public class ExceptionHandling {
             System.out.println("Message: " + e.getMessage());
 
         } catch (InvalidAgeException e) {
-            System.out.println("Caught Custom InvalidAgeException!");
+            System.out.println("Caught Custom review.InvalidAgeException!");
             System.out.println("Message: " + e.getMessage());
 
         } catch (Exception e) {
