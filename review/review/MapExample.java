@@ -2,7 +2,6 @@ package review;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class MapExample {
     public static void main(String[] args){

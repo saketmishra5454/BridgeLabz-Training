@@ -14,12 +14,8 @@ public class SecondLargest{
                 System.out.println("Plz Enter the valid Positive Value");
                 break;
             }
-            
         }
-        for(int i = 0; i<arr.length;i++){
-            arr[i] = sc.nextInt();
-         }
-        
+
         int largest = 0;
        
         for(int num : arr){
