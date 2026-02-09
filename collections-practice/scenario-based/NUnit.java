@@ -1,60 +1,98 @@
-using System;
-using NUnit.Framework;
+import static org.junit.jupiter.api.Assertions.*;
 
-namespace BankAccountTests
-{
-        // Add required attribute for test class
-        [TestFixture]
-public class UnitTest
-{
+import org.junit.jupiter.api.Test;
+
+public class NUnit {
+
+    // ================== Bank Account Class ==================
+    static class Program {
+
+        private int balance;
+
+        // Constructor
+        public Program(int balance) {
+            this.balance = balance;
+        }
+
+        // Deposit method
+        public void deposit(int amount) throws Exception {
+
+            if (amount <= 0) {
+                throw new Exception("Invalid deposit amount");
+            }
+
+            balance += amount;
+        }
+
+        // Withdraw method
+        public void withdraw(int amount) throws Exception {
+
+            if (amount > balance) {
+                throw new Exception("Insufficient balance");
+            }
+
+            balance -= amount;
+        }
+
+        // Getter
+        public int getBalance() {
+            return balance;
+        }
+    }
+
+    // ================== Unit Test Cases ==================
+
     // Test for valid deposit
-        [Test]
-    public void Test_Deposit_ValidAmount()
-    {
+    @Test
+    void testDepositValidAmount() throws Exception {
+
         // Arrange
-        Program account = new Program(1000m);
+        Program account = new Program(1000);
 
         // Act
-        account.Deposit(500m);
+        account.deposit(500);
 
-        // Assert (Only ONE Assert)
-        Assert.AreEqual(1500m, account.Balance);
+        // Assert
+        assertEquals(1500, account.getBalance());
     }
 
     // Test for negative deposit
-        [Test]
-    public void Test_Deposit_NegativeAmount()
-    {
-        // Arrange
-        Program account = new Program(1000m);
+    @Test
+    void testDepositNegativeAmount() {
 
-        // Act & Assert (Only ONE Assert)
-        Assert.Throws<Exception>(() => account.Deposit(-200m));
+        // Arrange
+        Program account = new Program(1000);
+
+        // Act & Assert
+        assertThrows(Exception.class, () -> {
+            account.deposit(-200);
+        });
     }
 
     // Test for valid withdrawal
-        [Test]
-    public void Test_Withdraw_ValidAmount()
-    {
+    @Test
+    void testWithdrawValidAmount() throws Exception {
+
         // Arrange
-        Program account = new Program(1000m);
+        Program account = new Program(1000);
 
         // Act
-        account.Withdraw(400m);
+        account.withdraw(400);
 
-        // Assert (Only ONE Assert)
-        Assert.AreEqual(600m, account.Balance);
+        // Assert
+        assertEquals(600, account.getBalance());
     }
 
     // Test for insufficient funds
-        [Test]
-    public void Test_Withdraw_InsufficientFunds()
-    {
-        // Arrange
-        Program account = new Program(500m);
+    @Test
+    void testWithdrawInsufficientFunds() {
 
-        // Act & Assert (Only ONE Assert)
-        Assert.Throws<Exception>(() => account.Withdraw(1000m));
+        // Arrange
+        Program account = new Program(500);
+
+        // Act & Assert
+        assertThrows(Exception.class, () -> {
+            account.withdraw(1000);
+        });
     }
-}
 }
