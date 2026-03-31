@@ -1,0 +1,21 @@
+package csvdatahandling;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class CountCSVRows {
+	public static void main(String[] args) {
+		String filePath = "D:\\BridgeLabz-Training\\io-programming-practice\\gcr-codebase\\csvdatahandling\\employees.csv";
+		int count = 0;
+		try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+			// skip header
+			br.readLine();
+			while (br.readLine() != null) {
+				count++;
+			}
+			System.out.println("Total records: " + count);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
