@@ -2,6 +2,7 @@
 *.class
 .classpath
 .project
+.idea
 
 # Ignore Eclipse files anywhere
 **/.classpath
